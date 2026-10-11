@@ -3,82 +3,109 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Bowling, leagues, food, and family fun at Bowl Arena of Jacksonville, NC." />
-    <title>Bowl Arena of Jacksonville</title>
+    <meta name="description" content="Open bowling, leagues, food, arcade games, parties and family fun at Bowl Arena of Jacksonville." />
+    <meta property="og:title" content="Bowl Arena of Jacksonville" />
+    <meta property="og:description" content="Good times roll here. Check bowling rates, hours, food and lane information." />
+    <meta property="og:type" content="website" />
+    <title>Bowl Arena of Jacksonville | Bowling, Food & Family Fun</title>
+    <link rel="icon" href="favicon.svg" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main>
-      <header class="site-header">
-        <a class="brand" href="#top" aria-label="Bowl Arena of Jacksonville home">
-          <img src="assets/bowl-arena-logo.png" alt="Bowl Arena of Jacksonville" />
+    <div class="notice-bar">
+      <strong>Planning to bowl?</strong>
+      <span>League play can limit lane availability, especially during weekday evenings.</span>
+      <a href="tel:+19104558800">Call ahead: (910) 455-8800</a>
+    </div>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="Bowl Arena of Jacksonville home">
+          <img src="bowl-arena-logo.png" alt="Bowl Arena of Jacksonville" />
         </a>
         <nav aria-label="Primary navigation">
-          <a href="#prices">Prices</a>
-          <a href="#menu">Menu</a>
-          <a href="#hours">Hours</a>
-          <a class="nav-call" href="tel:+19104558800">Call now</a>
+          <a aria-current="page" href="index.html">Home</a>
+          <a href="bowling.html">Bowling</a>
+          <a href="#food">Food</a>
+          <a href="about.html">About &amp; Contact</a>
         </nav>
-      </header>
+        <a class="nav-call" href="tel:+19104558800">Call now</a>
+      </div>
+    </header>
 
+    <main>
       <section class="hero" id="top">
         <div class="hero-photo" aria-hidden="true"></div>
-        <div class="hero-shade"></div>
-        <div class="hero-content">
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-content wrap">
           <p class="eyebrow">Jacksonville's hometown lanes</p>
           <h1>Good times<br />roll here.</h1>
-          <p class="hero-copy">Open bowling, leagues, food, and late-night Thunder Alley—right on Western Boulevard.</p>
+          <p class="hero-copy">Open bowling, leagues, food, arcade games and late-night Thunder Alley—right on Western Boulevard.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="tel:+19104558800">Call for lane availability <span aria-hidden="true">↗</span></a>
-            <a class="button button-ghost" href="#prices">See today's rates</a>
+            <a class="button button-primary" href="bowling.html">See bowling rates <span aria-hidden="true">↗</span></a>
+            <a class="button button-ghost" href="tel:+19104558800">Check lane availability</a>
           </div>
         </div>
-        <div class="quick-facts" aria-label="Quick information">
+        <div class="quick-facts wrap" aria-label="Quick information">
           <div><span>Location</span><strong>433 Western Blvd.</strong></div>
-          <div><span>Phone</span><strong>(910) 455-8800</strong></div>
-          <div><span>Heads up</span><strong>Call ahead for lanes</strong></div>
+          <div><span>Today's best move</span><strong>Call before arriving</strong></div>
+          <div><span>Shoe rental</span><strong>$4.50 per pair</strong></div>
         </div>
       </section>
 
-      <section class="rates-section" id="prices">
-        <div class="section-heading">
-          <div><p class="eyebrow dark">Simple pricing</p><h2>Pick a game.<br />Or take the lane.</h2></div>
-          <p>Choose per-game pricing or take the lane by the hour. Hourly rates cover up to six bowlers.</p>
+      <section class="section intro-section">
+        <div class="wrap split-heading">
+          <div>
+            <p class="eyebrow dark">Everything under one roof</p>
+            <h2>More than<br />a few frames.</h2>
+          </div>
+          <div class="intro-copy">
+            <p>Come for open bowling, join a league, celebrate a birthday, grab a meal or spend time in the game room. Bowl Arena has served Jacksonville families and bowlers since 1955.</p>
+            <a class="text-link dark-link" href="about.html">Our story <span>↗</span></a>
+          </div>
         </div>
-        <div class="rate-grid">
-          <article class="rate-card rate-card-light">
-            <div class="rate-title"><span>01</span><h3>Game rates</h3></div>
-            <div class="rate-list">
-              <div class="rate-row"><div><strong>Mon – Fri</strong><span>Before 5 PM</span></div><div><b>$4.50</b><small>per game / person</small></div></div>
-              <div class="rate-row"><div><strong>Mon – Thu</strong><span>After 5 PM</span></div><div><b>$5.25</b><small>per game / person</small></div></div>
-              <div class="rate-row"><div><strong>Saturday</strong><span>Before 5 PM</span></div><div><b>$5.50</b><small>per game / person</small></div></div>
-              <div class="rate-row"><div><strong>Sunday &amp; holidays</strong><span>All day</span></div><div><b>$5.50</b><small>per game / person</small></div></div>
-            </div>
-            <p class="rate-note">Friday after 5 PM and Saturday after 5 PM are hourly only.</p>
-          </article>
-          <article class="rate-card rate-card-dark">
-            <div class="rate-title"><span>02</span><h3>Hourly rates</h3></div>
-            <div class="rate-list">
-              <div class="rate-row"><div><strong>Mon – Fri</strong><span>Before 5 PM</span></div><div><b>$16</b><small>per lane / hour</small></div></div>
-              <div class="rate-row"><div><strong>Mon – Thu</strong><span>After 5 PM</span></div><div><b>$24</b><small>per lane / hour</small></div></div>
-              <div class="rate-row"><div><strong>Fri &amp; Sat</strong><span>Before 9 PM</span></div><div><b>$27</b><small>per lane / hour</small></div></div>
-              <div class="rate-row"><div><strong>Sunday &amp; holidays</strong><span>All day</span></div><div><b>$27</b><small>per lane / hour</small></div></div>
-            </div>
-            <p class="rate-note">Shoe rental: $4.50 per pair · Maximum six bowlers per lane.</p>
-          </article>
-        </div>
-        <div class="thunder-strip">
-          <div><span class="thunder-kicker">Friday + Saturday · 9 PM to close</span><h3>Thunder Alley</h3></div>
-          <div class="thunder-price"><strong>$28</strong><span>per lane / hour</span></div>
-          <p>Late-night bowling is hourly only. Shoe rental is separate.</p>
+
+        <div class="wrap feature-grid">
+          <a class="feature-card feature-blue" href="bowling.html">
+            <span class="card-number">01</span>
+            <div><p>Open bowling</p><h3>Rates that fit the way you play.</h3><span class="card-link">View bowling details ↗</span></div>
+          </a>
+          <a class="feature-card feature-dark" href="bowling.html#leagues">
+            <span class="card-number">02</span>
+            <div><p>League bowling</p><h3>Casual, competitive, adult and youth.</h3><span class="card-link">Explore leagues ↗</span></div>
+          </a>
+          <a class="feature-card feature-lime" href="tel:+19104558800">
+            <span class="card-number">03</span>
+            <div><p>Birthday parties</p><h3>Bowling, food and game-room fun.</h3><span class="card-link">Call about parties ↗</span></div>
+          </a>
+          <div class="feature-card feature-cream">
+            <span class="card-number">04</span>
+            <div><p>Game room</p><h3>Arcade games, tickets and prizes.</h3><span class="card-link">Games use tokens or dollar bills</span></div>
+          </div>
         </div>
       </section>
 
-      <section class="menu-section" id="menu">
+      <section class="home-rates">
+        <div class="wrap home-rate-grid">
+          <div>
+            <p class="eyebrow">Bowling your way</p>
+            <h2>One game.<br />Or the whole lane.</h2>
+            <p>Choose per-game pricing or reserve the lane by the hour. Hourly rates cover up to six bowlers.</p>
+            <a class="button button-primary" href="bowling.html">View all rates and policies</a>
+          </div>
+          <div class="price-snapshot" aria-label="Starting prices">
+            <div><span>Weekday games</span><strong>From $4.50</strong><small>per person · before 5 PM</small></div>
+            <div><span>Hourly bowling</span><strong>From $16</strong><small>per lane · up to 6 bowlers</small></div>
+            <div><span>Thunder Alley</span><strong>$28</strong><small>Fri &amp; Sat · 9 PM to close</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section menu-section" id="food">
         <div class="menu-copy">
           <p class="eyebrow dark">Fuel the next frame</p>
           <h2>Bowling food.<br />Done right.</h2>
-          <p class="menu-lead">Pizza, wings, sandwiches, salads, and lane-side favorites—plus an ABC-licensed bar.</p>
+          <p class="lead">Pizza, wings, sandwiches, salads and lane-side favorites—plus an ABC-licensed bar.</p>
           <div class="menu-highlights">
             <div><span>14&quot; cheese pizza</span><strong>$14</strong></div>
             <div><span>10-piece wings</span><strong>$15.95</strong></div>
@@ -88,19 +115,34 @@
           <p class="bar-note"><strong>At the bar</strong><span>Ask the counter for the current drink selection.</span></p>
         </div>
         <div class="menu-board">
-          <a href="assets/snack-bar-menu-original.jpg" target="_blank" rel="noreferrer" aria-label="Open full-size snack bar menu">
-            <img src="assets/snack-bar-menu-original.jpg" alt="Bowl Arena snack bar menu with munchies, wings, salads, pizza, and sandwiches" />
-            <span>Tap to view full-size menu ↗</span>
+          <a href="snack-bar-menu-original.jpg" target="_blank" rel="noreferrer" aria-label="Open full-size snack bar menu">
+            <img src="snack-bar-menu-original.jpg" alt="Bowl Arena snack bar menu" />
+            <span>View full-size menu ↗</span>
           </a>
           <p>Menu options and prices are subject to change.</p>
         </div>
       </section>
 
-      <section class="hours-section" id="hours">
+      <section class="visit-section">
+        <div class="wrap visit-grid">
+          <div class="visit-heading">
+            <p class="eyebrow">Before you roll in</p>
+            <h2>Know before<br />you go.</h2>
+          </div>
+          <div class="policy-grid">
+            <div><span>01</span><h3>Bring the whole crew</h3><p>Lanes are assigned once your entire party is present and ready to bowl.</p></div>
+            <div><span>02</span><h3>Call ahead</h3><p>Leagues and tournaments can significantly affect open-lane availability.</p></div>
+            <div><span>03</span><h3>Payment</h3><p>Cash and credit cards are accepted. Tap-to-pay is not currently available.</p></div>
+            <div><span>04</span><h3>Bowling shoes</h3><p>Rental shoes are $4.50. Socks are available for purchase for $3.25.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="hours-section">
         <div class="hours-intro">
           <p class="eyebrow">Plan your visit</p>
           <h2>Hours that work<br />with your week.</h2>
-          <p>League play can limit lane availability. Call before heading over, especially on busy evenings.</p>
+          <p>Hours and lane availability can change for leagues, tournaments and slow business periods. Call before heading over.</p>
           <a class="text-link" href="tel:+19104558800">(910) 455-8800 <span>↗</span></a>
         </div>
         <div class="hours-list">
@@ -108,18 +150,15 @@
           <div class="hours-row"><span>Monday – Wednesday</span><strong>11 AM – 10 PM</strong></div>
           <div class="hours-row"><span>Thursday</span><strong>10 AM – 10 PM</strong></div>
           <div class="hours-row"><span>Friday – Saturday</span><strong>10 AM – Midnight</strong></div>
-          <p class="hours-note">Hours and prices may change. The center may close early when business is very slow.</p>
+          <a class="button button-outline-light" href="https://www.google.com/maps/search/?api=1&amp;query=433+Western+Blvd+Jacksonville+NC+28546" target="_blank" rel="noreferrer">Get directions ↗</a>
         </div>
       </section>
-
-      <footer>
-        <div><img src="assets/bowl-arena-logo.png" alt="Bowl Arena of Jacksonville" /><p>Roll in. Grab a bite. Make a night of it.</p></div>
-        <div class="footer-details">
-          <p><span>Visit</span><strong>433 Western Blvd.<br />Jacksonville, NC 28546</strong></p>
-          <p><span>Call</span><a href="tel:+19104558800">(910) 455-8800</a></p>
-          <a class="directions" href="https://www.google.com/maps/search/?api=1&amp;query=433+Western+Blvd+Jacksonville+NC+28546" target="_blank" rel="noreferrer">Get directions ↗</a>
-        </div>
-      </footer>
     </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand"><img src="bowl-arena-logo.png" alt="Bowl Arena of Jacksonville" /><p>Roll in. Grab a bite. Make a night of it.</p></div>
+      <div class="footer-nav"><span>Explore</span><a href="index.html">Home</a><a href="bowling.html">Bowling</a><a href="about.html">About &amp; Contact</a></div>
+      <div class="footer-contact"><span>Visit</span><strong>433 Western Blvd.<br />Jacksonville, NC 28546</strong><a href="tel:+19104558800">(910) 455-8800</a></div>
+    </footer>
   </body>
 </html>

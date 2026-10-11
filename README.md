@@ -1,54 +1,29 @@
 # Bowl Arena of Jacksonville
 
-A modern, mobile-friendly website concept for Bowl Arena of Jacksonville. The website gives customers quick access to bowling prices, operating hours, food and drink information, contact details, and directions.
+A responsive, multipage website concept for Bowl Arena of Jacksonville.
 
-## Website Features
+## Pages
 
-- Responsive design for mobile and desktop
-- Current bowling and hourly rates
-- Thunder Alley information
-- Snack-bar menu and featured items
-- Business hours
-- Click-to-call phone links
-- Google Maps directions
-- No database or external software required
+- `index.html` — Refined homepage
+- `bowling.html` — Rates, Thunder Alley, reservations and league information
+- `about.html` — Business history, contact information, directions and hours
 
-## Project Files
+## Shared files
 
-- `index.html` — Website content and structure
-- `styles.css` — Colors, layout, typography, and mobile styling
-- `assets/` — Logo, photographs, and menu images
-
-## Previewing the Website
-
-Open `index.html` in a web browser to preview the website locally.
-
-For a local web server, run:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then visit:
-
-```text
-http://localhost:8000
-```
+- `styles.css` — Styling and responsive layouts for every page
+- `bowl-arena-logo.png` — Business logo
+- `bowling-action-original.jpg` — Bowling hero image
+- `snack-bar-menu-original.jpg` — Full snack-bar menu
+- `favicon.svg` — Browser icon
 
 ## Deployment
 
-This is a static website and can be deployed through:
+This is a static website. No build command is required. Deploy the repository root through Vercel, Cloudflare Pages, Netlify, GitHub Pages or traditional web hosting.
 
-- Vercel
-- Cloudflare Pages
-- Netlify
-- GitHub Pages
-- Traditional web hosting
+## Updating the live website
 
-No build command is required. The repository’s root directory should be used as the publishing directory.
+Edit the appropriate HTML or CSS file and commit the change to the connected GitHub repository. Vercel will create a new deployment from the updated repository.
 
-## Updating Content
+## Before official launch
 
-Business information can be updated directly inside `index.html`. Visual styling and responsive behavior can be modified inside `styles.css`.
-
-Before official launch, confirm all hours, prices, menu items, photographs, branding, and business information with Bowl Arena management.
+Confirm all prices, hours, league schedules, reservation terms, menu items, photographs and business policies with Bowl Arena management. Obtain permission to use business-owned branding and photographs.
