@@ -49,7 +49,7 @@ h2 { font-size: clamp(52px, 6vw, 88px); }
 .button-ghost { border: 1px solid rgba(255,255,255,.65); color: white; }
 .button-dark { background: var(--ink); color: white; }
 .button-outline-light { border: 1px solid rgba(255,255,255,.5); color: white; }
-.quick-facts { position: absolute; z-index: 2; left: 0; right: 0; bottom: 0; min-height: 112px; display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid rgba(255,255,255,.32); }
+.quick-facts { position: absolute; z-index: 2; left: 0; right: 0; bottom: 0; min-height: 112px; display: grid; grid-template-columns: repeat(3, 1fr); }
 .quick-facts div { padding: 28px 34px; border-right: 1px solid rgba(255,255,255,.28); }
 .quick-facts div:first-child { padding-left: 0; }
 .quick-facts div:last-child { border-right: 0; }
