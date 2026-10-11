@@ -37,7 +37,7 @@ h2 { font-size: clamp(52px, 6vw, 88px); }
 .nav-call:hover { background: white; color: var(--ink); }
 
 .hero { position: relative; min-height: 760px; overflow: hidden; background: var(--navy); color: white; }
-.hero-photo { position: absolute; inset: 0; background: url("bowling-action-original.jpg") 55% 47% / cover no-repeat; transform: scale(1.01); }
+.hero-photo { position: absolute; inset: 0; background: url("assets/bowling-action-original.jpg") 55% 47% / cover no-repeat; transform: scale(1.01); }
 .hero-shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(4,10,23,.94) 0%, rgba(4,10,23,.72) 44%, rgba(4,10,23,.12) 80%), linear-gradient(0deg, rgba(4,10,23,.88), transparent 48%); }
 .hero-content { position: relative; z-index: 2; padding-top: 190px; }
 .hero h1 { max-width: 930px; font-size: clamp(74px, 10vw, 150px); }
@@ -124,7 +124,7 @@ a.feature-card:hover { transform: translateY(-4px); }
 .footer-nav a, .footer-contact strong, .footer-contact a { font-size: 13px; line-height: 1.55; }
 .footer-contact a { color: var(--lime); font-weight: 900; }
 
-.page-hero { position: relative; min-height: 610px; display: flex; align-items: center; overflow: hidden; background: var(--navy) url("bowling-action-original.jpg") center 47% / cover no-repeat; color: white; }
+.page-hero { position: relative; min-height: 610px; display: flex; align-items: center; overflow: hidden; background: var(--navy) url("assets/bowling-action-original.jpg") center 47% / cover no-repeat; color: white; }
 .page-hero-shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(4,10,23,.95) 0%, rgba(4,10,23,.72) 48%, rgba(4,10,23,.25) 100%), linear-gradient(0deg, rgba(4,10,23,.6), transparent 55%); }
 .page-hero-content { position: relative; z-index: 1; padding-top: 100px; }
 .page-hero h1 { max-width: 1000px; font-size: clamp(68px, 8.5vw, 125px); }
