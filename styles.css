@@ -29,7 +29,7 @@ h2 { font-size: clamp(52px, 6vw, 88px); }
 
 .site-header { position: absolute; z-index: 10; top: 42px; left: 0; right: 0; color: white; border-bottom: 1px solid rgba(255,255,255,.26); }
 .header-inner { width: min(1320px, 90vw); min-height: 88px; margin: auto; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
-.brand img { display: block; width: 188px; filter: brightness(0) invert(1); }
+.brand img { display: block; width: 188px; }
 .site-header nav { display: flex; align-items: center; gap: 30px; margin-left: auto; }
 .site-header nav a { padding: 34px 0 31px; border-bottom: 3px solid transparent; font-size: 12px; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; }
 .site-header nav a:hover, .site-header nav a[aria-current="page"] { color: var(--lime); border-bottom-color: var(--lime); }
@@ -117,7 +117,7 @@ a.feature-card:hover { transform: translateY(-4px); }
 .hours-list .button { margin-top: 30px; }
 
 .site-footer { display: grid; grid-template-columns: 1.3fr .5fr .7fr; gap: 70px; padding: 65px 5vw; background: #050b18; color: white; }
-.footer-brand img { width: 220px; filter: brightness(0) invert(1); }
+.footer-brand img { width: 220px; }
 .footer-brand p { margin: 16px 0 0; color: #7f8998; }
 .footer-nav, .footer-contact { display: flex; flex-direction: column; gap: 10px; }
 .footer-nav span, .footer-contact span { margin-bottom: 3px; color: var(--lime); font-size: 10px; font-weight: 900; letter-spacing: .15em; text-transform: uppercase; }
